@@ -1,4 +1,4 @@
-# SwiftWD — Bank & E-Wallet yang Didukung
+# SwiftWD - Bank & E-Wallet yang Didukung
 
 ![Bank & E-Wallet Support](./supported-banks.png)
 
