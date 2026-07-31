@@ -22,7 +22,7 @@
 
 ## Catatan
 
-- Semua metode di atas diproses otomatis lewat sistem SwiftWD — real-time, tanpa input manual.
+- Setup awal (tempel form panel ke sistem + jalankan sistem) dilakukan sekali di awal. Setelah itu, setiap proses withdrawal berjalan otomatis dan real-time tanpa perlu diproses manual satu per satu.
 - Daftar bank/e-wallet dapat bertambah sesuai kebutuhan. Untuk penambahan metode baru, hubungi tim SwiftWD.
 
 ## Kontak
