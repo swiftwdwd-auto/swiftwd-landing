@@ -1,17 +1,17 @@
-# SwiftWD — Setup Guide
+# SwiftWD - Setup Guide
 
-Panduan setup awal dari HP kosong sampai panel siap dipakai. Contoh di bawah menggunakan IP, port, dan nama panel generik — sesuaikan dengan konfigurasi masing-masing.
+Panduan setup awal dari HP kosong sampai panel siap dipakai. Contoh di bawah menggunakan IP, port, dan nama panel generik - sesuaikan dengan konfigurasi masing-masing.
 
 ## 0. Kebutuhan Infrastruktur
 
 Sebelum mulai setup, pastikan office sudah punya:
 
-- **1 unit PC/server** yang menyala 24 jam — PC ini hanya menjalankan server (agent + launcher), tidak perlu dipakai kerja sehari-hari
+- **1 unit PC/server** yang menyala 24 jam - PC ini hanya menjalankan server (agent + launcher), tidak perlu dipakai kerja sehari-hari
 - **Koneksi WiFi/jaringan yang sama** antara PC server dan seluruh HP/device Android staff
-- **HP/device Android tetap di meja masing-masing staff** — tidak perlu ditaruh atau dicolok ke PC server, karena koneksi berjalan lewat ADB over WiFi, bukan kabel USB permanen
-- **Staff cukup buka link panel** (Link Browser) dari komputer/laptop masing-masing lewat browser — tidak perlu akses langsung ke PC server
+- **HP/device Android tetap di meja masing-masing staff** - tidak perlu ditaruh atau dicolok ke PC server, karena koneksi berjalan lewat ADB over WiFi, bukan kabel USB permanen
+- **Staff cukup buka link panel** (Link Browser) dari komputer/laptop masing-masing lewat browser - tidak perlu akses langsung ke PC server
 
-Dengan kata lain: PC server jalan di belakang layar, staff kerja dari meja sendiri, HP juga tetap di meja staff — semuanya terhubung lewat jaringan, bukan kabel fisik.
+Dengan kata lain: PC server jalan di belakang layar, staff kerja dari meja sendiri, HP juga tetap di meja staff - semuanya terhubung lewat jaringan, bukan kabel fisik.
 
 ## 1. Contoh Format Daftar Panel & Port
 
@@ -55,7 +55,7 @@ Dengan kata lain: PC server jalan di belakang layar, staff kerja dari meja sendi
 ## 4. Daftarkan Device ke Device Manager
 
 1. Buka Device Manager (sistem multi-slot)
-2. Pilih slot kosong, masukkan IP device dan beri nama sesuai panel (contoh: `Panel A`, `Panel B`, dst — samakan dengan nama panel di tabel port)
+2. Pilih slot kosong, masukkan IP device dan beri nama sesuai panel (contoh: `Panel A`, `Panel B`, dst - samakan dengan nama panel di tabel port)
 3. Simpan, pastikan status device menunjukkan **connected**
 
 ## 5. Buka Port di Firewall
@@ -94,8 +94,8 @@ pause
 
 1. Jalankan agent untuk panel yang device-nya sudah terhubung (langkah 4)
 2. Jalankan launcher supaya proses tetap hidup 24 jam dan otomatis restart kalau agent terhenti atau device terputus
-3. Cek dari **Link Browser** (kolom B di tabel) — pastikan dashboard panel terbuka
-4. Cek dari **Agent URL / WS** (kolom C) — pastikan koneksi real-time (WebSocket) berhasil, biasanya ditandai status "connected" di dashboard
+3. Cek dari **Link Browser** (kolom B di tabel) - pastikan dashboard panel terbuka
+4. Cek dari **Agent URL / WS** (kolom C) - pastikan koneksi real-time (WebSocket) berhasil, biasanya ditandai status "connected" di dashboard
 
 ## 7. Troubleshooting Singkat
 
