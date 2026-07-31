@@ -2,6 +2,17 @@
 
 Panduan setup awal dari HP kosong sampai panel siap dipakai. Contoh di bawah menggunakan IP, port, dan nama panel generik — sesuaikan dengan konfigurasi masing-masing.
 
+## 0. Kebutuhan Infrastruktur
+
+Sebelum mulai setup, pastikan office sudah punya:
+
+- **1 unit PC/server** yang menyala 24 jam — PC ini hanya menjalankan server (agent + launcher), tidak perlu dipakai kerja sehari-hari
+- **Koneksi WiFi/jaringan yang sama** antara PC server dan seluruh HP/device Android staff
+- **HP/device Android tetap di meja masing-masing staff** — tidak perlu ditaruh atau dicolok ke PC server, karena koneksi berjalan lewat ADB over WiFi, bukan kabel USB permanen
+- **Staff cukup buka link panel** (Link Browser) dari komputer/laptop masing-masing lewat browser — tidak perlu akses langsung ke PC server
+
+Dengan kata lain: PC server jalan di belakang layar, staff kerja dari meja sendiri, HP juga tetap di meja staff — semuanya terhubung lewat jaringan, bukan kabel fisik.
+
 ## 1. Contoh Format Daftar Panel & Port
 
 | Panel | Link Browser | Agent URL (WS) |
@@ -26,6 +37,8 @@ Panduan setup awal dari HP kosong sampai panel siap dipakai. Contoh di bawah men
    Pastikan device muncul dan statusnya `device` (bukan `unauthorized`). Kalau muncul prompt "Allow USB debugging?" di HP, tap **Allow**.
 
 ## 3. Aktifkan ADB over WiFi
+
+> Kabel USB hanya dibutuhkan sekali di awal untuk pairing. Setelah tersambung lewat WiFi, HP bisa langsung ditaruh kembali di meja staff — tidak perlu tetap terhubung ke PC server.
 
 1. Cari IP address HP (Settings → About Phone → Status → IP Address), misal `192.168.1.100`
 2. Di PC (masih dengan kabel USB terpasang), jalankan:

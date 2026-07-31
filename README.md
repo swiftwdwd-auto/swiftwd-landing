@@ -8,6 +8,8 @@ Sistem otomasi withdrawal perbankan multi-panel, real-time, dan berjalan 24 jam.
 
 SwiftWD adalah sistem otomasi withdrawal yang menghubungkan panel, aplikasi perbankan, dan monitoring real-time dalam satu arsitektur yang stabil dan mudah dipantau.
 
+> **Catatan deployment**: SwiftWD berjalan dari 1 unit PC/server di office (menjalankan server saja). Staff mengakses panel lewat browser dari meja masing-masing, dan HP/device Android juga tetap berada di meja staff — terhubung lewat ADB over WiFi, tanpa perlu kabel USB permanen ke server. Detail lengkap ada di [SETUP.md](./SETUP.md).
+
 ## Struktur Proyek
 
 | File | Fungsi |
