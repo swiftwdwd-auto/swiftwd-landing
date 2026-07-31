@@ -38,5 +38,10 @@ Untuk informasi, konsultasi, atau kerja sama:
 
 **Telegram: [@SwiftWDwd](https://t.me/SwiftWDwd)**
 
+## Dokumentasi Lengkap
+
+- [SETUP.md](./SETUP.md) — Panduan setup awal, pairing device, dan konfigurasi firewall
+- [SUPPORTED-BANKS.md](./SUPPORTED-BANKS.md) — Daftar bank dan e-wallet yang didukung
+
 ---
 © 2026 SwiftWD. All rights reserved.
